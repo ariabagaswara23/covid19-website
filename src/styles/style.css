@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #008891 !important;
+}
+
+section {
+    margin-top: -0.1rem;
+}
+
+.navbar-brand {
+    color: #E7E7DE !important;
+    font-weight: 700;
+    font-size: 1.5em !important;
+}
+
+.navbar-brand:hover {
+    color: #0F3057 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #E7E7DE !important;
+    font-size: 1.1em;
+}
+
+.nav-link:hover {
+    color: #0F3057 !important;
+}
+
+.header {
+    background-color: #008891;
+}
+
+.header h1,
+p {
+    color: #E7E7DE;
+}
+
+@media (min-width: 992px) {
+    .header-title b {
+        font-size: 2em !important;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .header-title b {
+        font-size: 1.5em !important;
+    }
+}
+
+#pencegahan {
+    margin-top: -0.1rem;
+}
+
+.container-pencegahan {
+    margin-top: -0.1rem;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.container-pencegahan .section-title {
+    color: #008891;
+    font-size: 3em;
+}
+
+.container-pencegahan .section-subtitle {
+    color: #008891;
+}
+
+.pencegahan-list h3,
+.pencegahan-list p {
+    color: #008891;
+    text-align: center;
+}
+
+#statistik {
+    margin-top: -0.1rem;
+}
+
+.container-statistik {
+    margin-top: -0.1rem;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.container-statistik .section-title {
+    color: #008891;
+    font-size: 3em;
+}
+
+.container-statistik .section-subtitle {
+    color: #008891;
+}
+
+.icon-statistik {
+    font-size: 2.5em;
+}
+
+a.back-to-top {
+    position: fixed;
+    bottom: 3vh;
+    right: 3vh;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    color: #E7E7DE !important;
+    background-color: #008891;
+    font-size: 2em;
+}
+
+province-list {
+    margin-top: 1rem;
+    display: block;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.nama-provinsi {
+    color: #008891;
+}
+
+a.back-to-top:hover {
+    color: #E7E7DE !important;
+    background-color: #0F3057;
+}
+
+footer {
+    background-color: #008891;
+}
